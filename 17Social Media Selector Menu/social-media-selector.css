@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(135deg, lightpink,lightblue);
+    font-family: 'Courier New', Courier, monospace;
+}
+.menu{
+    background-color: rgba(255, 255, 255, .2);
+    width: 300px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(100, 100, 100);
+    cursor: pointer;
+   
+
+}
+
+.menu p{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.menu i{
+    transition: transform .1s;
+}
+.social-media-lists{
+    width: 300px;
+    background-color: rgba(255, 255, 255, .2);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+flex-direction: column;
+
+
+
+}
+
+.social-media-lists li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: padding .3s;
+
+}
+
+.social-media-lists li:hover{
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.social-media-lists li .fa-brands{
+    margin: 0 10px;
+}
+.menu.rotate .fa-angle-down {
+  transform: rotate(-180deg);
+}
+
+.social-media-lists.active{
+    visibility: hidden;
+}

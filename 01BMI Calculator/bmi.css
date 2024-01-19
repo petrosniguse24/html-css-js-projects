@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom left, lightgreen, lightblue);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .3);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, .3);
+    font-size: 18px;
+}
+.heading{
+   
+}
+.sub-container{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    color: darkgreen;
+ 
+}
+.input{
+    margin: 10px 0;
+    padding: 10px 5px;
+    background-color: rgba(255, 255, 255, .6);
+    border-color: rgba(255, 255, 255, .7);
+    border-radius: 7px;
+    border-style: solid;
+   font-size: 16px;
+   color: darkgreen;
+}
+.input::placeholder{
+    font-family: 'Courier New', Courier, monospace;
+    color: darkgreen;
+}
+.btn{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 10px 0;
+    border-radius: 7px;
+    background-color: lightgreen;
+    border-style: none;
+   box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+   cursor: pointer;
+}
+.btn:hover{
+    box-shadow: 0 0 8px rgba(0, 0, 0, .3);
+}

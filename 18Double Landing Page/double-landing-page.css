@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1{
+    backdrop-filter: brightness(.5);
+    color: white;
+    white-space: nowrap;
+}
+
+.split{
+    height: 100%;
+    width: 50%;
+    top: 0;
+    text-align: center;
+    transition: width 2s ease-in-out;
+}
+
+.split.left{
+    position: absolute;
+    left: 0;
+    background-color: lightblue;
+    background-image: url("https://i.ytimg.com/vi/WNyiinuZIxg/maxresdefault.jpg");
+ background-size: cover;
+}
+.split.right{
+    position: absolute;
+    right: 0;
+    background-color: lightpink;
+    background-image: url("https://images.samsung.com/africa_en/smartphones/galaxy-s21/buy/galaxy-s21ultra-phantom-black.png");
+    background-size: cover;
+}
+.btn{
+    padding: 20px 40px;
+    background-color: black;
+    color: white;
+    border: solid 4px white;
+}
+
+.activate-left .right{
+    width: 25%;
+
+}
+.activate-left .left{
+    width: 75%;
+
+}
+.activate-right .right{
+    width: 75%;
+
+}
+.activate-right .left{
+    width: 25%;
+
+}

@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background: linear-gradient(to left top, yellow, lightblue, yellow);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: slateblue;
+}
+.container{
+    background-color: rgba(255, 255, 255, .3);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 450px;
+}
+.input-container{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+}
+.input{
+    width: 75%;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, .6);
+    outline-color: yellow;
+    font-size: 18px;
+    color: darkgreen;
+}
+.error{
+    color: red;
+    font-size: 18px;
+}
+
+.in-kg{
+    font-size: 18px;
+    font-weight: 500;
+}
